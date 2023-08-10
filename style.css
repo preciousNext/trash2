@@ -1,0 +1,124 @@
+@media screen and (max-width: 500px) {
+  .logo img {
+    width: 35px;
+    margin-left: 20px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .logo {
+    display: flex;
+  }
+  .logoN {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 13px;
+  }
+  .borderL {
+    border-left: 1px solid grey;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 9px;
+  }
+  .nav-links {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+  }
+  nav {
+    display: flex;
+  }
+  .burger {
+    cursor: pointer;
+    padding: 10px 14px;
+  }
+  .line {
+    background-color: black;
+    width: 25px;
+    height: 2px;
+    margin-top: 4px;
+  }
+  .nav-links.show {
+    display: grid;
+    width: 100%;
+    position: absolute;
+    padding-left: 20px;
+    top: 40px;
+    left: 0px;
+    background-color: transparent;
+  }
+  .nav-links li {
+    list-style: none;
+    margin-top: 19px;
+  }
+
+  .nav-links li a {
+    color: black;
+    text-decoration: none;
+
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+
+  .seperate {
+    display: flex;
+  }
+  #arrow {
+    cursor: pointer;
+    margin-left: 255px;
+  }
+  section.shift {
+    margin-top: 260px;
+  }
+  /* .navbar-active .line:nth-child(1) {
+    transform: translateX(-8px) rotate(45deg);
+  }
+  .navbar-active .line:nth-child(2) {
+    opacity: 0;
+  }
+  .navbar-active .line:nth-child(3) {
+    transform: translateX(-8px) rotate(-45deg);
+  } */
+  .navbar-active .line:nth-child(1) {
+    transform: translateY(4px) rotate(-45deg);
+  }
+  .navbar-active .line:nth-child(2) {
+    opacity: 0;
+  }
+  .navbar-active .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+  }
+  .arrow-down {
+    display: none;
+  }
+  .arrow-down.active {
+    display: block;
+    margin-top: 10px;
+  }
+  .answer {
+    display: none;
+  }
+  .ques {
+    cursor: pointer;
+  }
+  .carousel img {
+    width: 250px;
+    display: none;
+  }
+  .carousel img.show {
+    display: block;
+  }
+  body {
+    height: 300vh;
+  }
+  .products img {
+    width: 120px;
+  }
+}
