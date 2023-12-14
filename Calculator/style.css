@@ -1,0 +1,39 @@
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+
+  margin: auto;
+}
+.display {
+  display: flex;
+  margin: 10px 0;
+  height: 30px;
+}
+.number {
+  color: blue;
+}
+.operator {
+  color: red;
+}
+button {
+  width: 50px;
+  height: 60px;
+  background-color: #f1f1f1;
+  border: none;
+  font-size: 20px;
+}
+.success-message {
+  display: none;
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.verify-button {
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
